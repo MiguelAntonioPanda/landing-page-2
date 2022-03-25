@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Monoton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow-y: hidden;
+    border: none;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./img/body1.webp);
+    background-position: center center;
+    color: #fff;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+header a:hover{
+    color: #ffff;
+    transition-duration: 0.7s;
+}
+#logo{
+    color: #2C3532;    
+}
+.menu a{
+    margin-left: 15px;   
+    color: #28292C;
+}
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.login{
+    display: contents;
+    
+}
+#social-1{
+    margin-left: 13px;  
+}
+#botton1{
+    padding: 10px;
+    background-color: skyblue;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+#botton1 a{
+    color: #ffff;
+    font-weight: 200;
+}
+#botton1:hover{
+    background-color: #0099DD;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+main{
+    padding: 15px;
+    margin: 10px;
+}
+.section1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: xx-large;
+    font-size: 3.5em;
+    color: #ff81d1a4;
+}
+.section2{
+    margin-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 120px;
+
+}
+.section3{
+    margin-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 120px;
+    color: #e63aa6a4;
+}
+.main2{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#botton2{
+    padding: 14px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 3px rgba(83, 83, 83, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 400;
+    background-color: #0099DD;
+}
+#botton2 a{
+    color: #ffff;   
+}
+#botton2:hover{
+    background-color: skyblue;
+}
+.main-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    color: #e63aa6a4;
+    font-weight: bold;
+
+}
